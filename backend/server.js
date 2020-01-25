@@ -7,12 +7,15 @@ const requireDir = require('require-dir');
 const app = express();
 
 //iniciando o DB
-mongoose.connect('mongodb://localhost:27017/backendph', 
-  { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/backendph', { 
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
 //leitura de todos os models para o mongoose
 requireDir('./src/models');
+
 //rotas
-// app.use('/api', require("./src/routes"));
+app.use('/api', routes);
 
 app.listen(3001);
