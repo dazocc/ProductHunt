@@ -1,3 +1,7 @@
 backend/yarn.lock
 backend/node_modules
 backend/yarn-error.log
+
+mobile/yarn.lock
+mobile/node_modules
+mobile/yarn-error.log
