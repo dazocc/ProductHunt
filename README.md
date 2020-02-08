@@ -1,4 +1,4 @@
-# product_hunt
+# Product Hunt
 Product Hunt
 
 This Project is my new effort to learn about Node and React.
